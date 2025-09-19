@@ -15,7 +15,7 @@ const TabIcon = ({focused, icon, title}:any) => {
                        tintColor="#151312" className="size-5"/>
                 <Text className="text-secondary text-base font-semibold ml-2">{title}</Text>
             </ImageBackground>
-        )
+        );
     }
     return (
         <View className="size-full justify-center items-center mt-4 rounded-full">
@@ -23,8 +23,8 @@ const TabIcon = ({focused, icon, title}:any) => {
                    tintColor="#A8B5DB"
                    className="size-5"/>
         </View>
-    )
-}
+    );
+};
 
 const _Layout = () => {
     return (
@@ -39,7 +39,7 @@ const _Layout = () => {
             },
             tabBarStyle: {
                 backgroundColor: '#0f0D23',
-                borderTopWidth: 0,
+                // borderTopWidth: 0,
                 borderRadius: 50,
                 marginHorizontal: 20,
                 marginBottom: 36,
