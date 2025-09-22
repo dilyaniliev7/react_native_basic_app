@@ -1,9 +1,8 @@
 import { Text, View, Image, ScrollView } from "react-native";
-import { Link } from 'expo-router';
+import { Link, useRouter } from 'expo-router';
 import {images} from "@/constants/images";
 import {icons} from "@/constants/icons";
-import {SearchBar} from "@/components/SearchBar";
-import {useRouter} from "expo-router";
+import SearchBar from "@/components/SearchBar";
 
 export default function Index() {
     const router = useRouter();

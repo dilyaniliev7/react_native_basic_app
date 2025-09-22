@@ -24,4 +24,4 @@ const SearchBar = ({placeholder, onPress}: Props) => {
         </View>
     )
 }
-export default SearchBar
+export default SearchBar;
