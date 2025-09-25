@@ -53,8 +53,8 @@
 //         </View>
 //     );
 // }
-import { Text, View, Image, ScrollView, FlatList, ActivityIndicator } from "react-native";
-import { Link, useRouter } from 'expo-router';
+import { Text, View, Image, FlatList, ActivityIndicator } from "react-native";
+import { useRouter } from 'expo-router';
 import {images} from "@/constants/images";
 import {icons} from "@/constants/icons";
 import SearchBar from "@/components/SearchBar";
